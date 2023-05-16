@@ -35,7 +35,6 @@
     }
     
     .container .item {
-      flex-basis: calc(33.33% - 20px);
       margin-bottom: 20px;
     }
     
@@ -50,13 +49,19 @@
     }
     
     .container .item .links {
-      display: flex;
+      margin-top: 10px;
     }
     
     .container .item .links a {
       margin-right: 10px;
       color: #333;
       text-decoration: none;
+    }
+    
+    .project-details {
+      margin-top: 10px;
+      list-style-type: disc;
+      padding-left: 20px;
     }
   </style>
 </head>
@@ -69,12 +74,16 @@
     <div class="container">
       <div class="item">
         <img src="profile-picture.jpg" alt="Profile Picture">
-        <p>Software Engineer</p>
       </div>
       <div class="item">
         <h2>Summary</h2>
         <p>Your summary text goes here.</p>
       </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
       <div class="item">
         <h2>Work Experience</h2>
         <p>Your work experience details go here.</p>
@@ -83,35 +92,50 @@
           <a href="github-work-experience-repo-2">Project 2</a>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
       <div class="item">
         <h2>Projects</h2>
-        <p>Details about your projects go here.</p>
+        <p>Details about your projects go here:</p>
+        <ul class="project-details">
+          <li>Project 1 description.</li>
+          <li>Project 2 description.</li>
+          <li>Project 3 description.</li>
+        </ul>
         <div class="links">
           <a href="github-project-repo-1">Project 1</a>
           <a href="github-project-repo-2">Project 2</a>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
       <div class="item">
         <h2>Coursework</h2>
         <p>Details about your coursework go here.</p>
-        <div class="links">
-          <a href="github-coursework-repo-1">Coursework 1</a>
-          <a href="github-coursework-repo-2">Coursework 2</a>
-        </div>
-      </div>
+<div class="links">
+<a href="github-coursework-repo-1">Coursework 1</a>
+<a href="github-coursework-repo-2">Coursework 2</a>
+</div>
+</div>
+</div>
+  </section>
+  <section>
+    <div class="container">
       <div class="item">
         <h2>Publications</h2>
         <p>Details about your publications go here.</p>
         <div class="links">
           <a href="github-publication-repo-1">Publication 1</a>
-<a href="github-publication-repo-2">Publication 2</a>
-</div>
-</div>
-</div>
-
+          <a href="github-publication-repo-2">Publication 2</a>
+        </div>
+      </div>
+    </div>
   </section>
-  <script>
-    // Add any JavaScript functionality here if needed
-  </script>
 </body>
 </html>
